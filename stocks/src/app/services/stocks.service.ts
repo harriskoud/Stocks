@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Stock } from 'model/stock';
+import { Stock } from 'src/model/stock';
 import { HttpClient } from '@angular/common/http';
 
 

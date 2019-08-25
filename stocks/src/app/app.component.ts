@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { StocksService } from './services/stocks.service';
-import { Stock } from 'model/stock';
+import { Stock } from 'src/model/stock';
 
 
 @Component({

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Stock } from 'model/stock';
+import { Stock } from 'src/model/stock';
+
 
 @Component({
   selector: 'summary',
