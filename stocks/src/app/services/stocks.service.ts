@@ -19,6 +19,7 @@ export class StocksService {
 
   add(stock){
     stocks.push(stock);
+    console.log(stocks);
     return this.get();
   }
 

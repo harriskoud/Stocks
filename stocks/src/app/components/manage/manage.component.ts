@@ -21,8 +21,8 @@ export class ManageComponent implements OnInit {
       this.symbols = this.service.remove(stockSymbol);
   }
 
-  addStock(stockSymbol){
-    this.symbols = this.service.add(stockSymbol);
+  addStock(){
+    this.symbols = this.service.add(this.stock.toUpperCase());
     this.stock = '';
   }
 
